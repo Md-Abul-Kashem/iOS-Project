@@ -9,6 +9,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *choseVideo;
+- (IBAction)loadVideoFromDeviceLibrary:(id)sender;
 
 @end
 
