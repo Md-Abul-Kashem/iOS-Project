@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26FD704E2A79F4E60099405A /* NativeVideoManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD704D2A79F4E60099405A /* NativeVideoManagerApp.swift */; };
+		26FD70502A79F4E60099405A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD704F2A79F4E60099405A /* ContentView.swift */; };
+		26FD70522A79F4E70099405A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FD70512A79F4E70099405A /* Assets.xcassets */; };
+		26FD70552A79F4E70099405A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FD70542A79F4E70099405A /* Preview Assets.xcassets */; };
+		26FD70572A79F4E70099405A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD70562A79F4E70099405A /* Persistence.swift */; };
+		26FD705A2A79F4E70099405A /* NativeVideoManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26FD70582A79F4E70099405A /* NativeVideoManager.xcdatamodeld */; };
+		26FD70642A79F4E70099405A /* NativeVideoManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD70632A79F4E70099405A /* NativeVideoManagerTests.swift */; };
+		26FD706E2A79F4E70099405A /* NativeVideoManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD706D2A79F4E70099405A /* NativeVideoManagerUITests.swift */; };
+		26FD70702A79F4E70099405A /* NativeVideoManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD706F2A79F4E70099405A /* NativeVideoManagerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26FD70602A79F4E70099405A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26FD70422A79F4E60099405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26FD70492A79F4E60099405A;
+			remoteInfo = NativeVideoManager;
+		};
+		26FD706A2A79F4E70099405A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26FD70422A79F4E60099405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26FD70492A79F4E60099405A;
+			remoteInfo = NativeVideoManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26FD704A2A79F4E60099405A /* NativeVideoManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeVideoManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FD704D2A79F4E60099405A /* NativeVideoManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeVideoManagerApp.swift; sourceTree = "<group>"; };
+		26FD704F2A79F4E60099405A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26FD70512A79F4E70099405A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26FD70542A79F4E70099405A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26FD70562A79F4E70099405A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		26FD70592A79F4E70099405A /* NativeVideoManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NativeVideoManager.xcdatamodel; sourceTree = "<group>"; };
+		26FD705F2A79F4E70099405A /* NativeVideoManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeVideoManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FD70632A79F4E70099405A /* NativeVideoManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeVideoManagerTests.swift; sourceTree = "<group>"; };
+		26FD70692A79F4E70099405A /* NativeVideoManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeVideoManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FD706D2A79F4E70099405A /* NativeVideoManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeVideoManagerUITests.swift; sourceTree = "<group>"; };
+		26FD706F2A79F4E70099405A /* NativeVideoManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeVideoManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26FD70472A79F4E60099405A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FD705C2A79F4E70099405A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FD70662A79F4E70099405A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26FD70412A79F4E60099405A = {
+			isa = PBXGroup;
+			children = (
+				26FD704C2A79F4E60099405A /* NativeVideoManager */,
+				26FD70622A79F4E70099405A /* NativeVideoManagerTests */,
+				26FD706C2A79F4E70099405A /* NativeVideoManagerUITests */,
+				26FD704B2A79F4E60099405A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26FD704B2A79F4E60099405A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26FD704A2A79F4E60099405A /* NativeVideoManager.app */,
+				26FD705F2A79F4E70099405A /* NativeVideoManagerTests.xctest */,
+				26FD70692A79F4E70099405A /* NativeVideoManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26FD704C2A79F4E60099405A /* NativeVideoManager */ = {
+			isa = PBXGroup;
+			children = (
+				26FD704D2A79F4E60099405A /* NativeVideoManagerApp.swift */,
+				26FD704F2A79F4E60099405A /* ContentView.swift */,
+				26FD70512A79F4E70099405A /* Assets.xcassets */,
+				26FD70562A79F4E70099405A /* Persistence.swift */,
+				26FD70582A79F4E70099405A /* NativeVideoManager.xcdatamodeld */,
+				26FD70532A79F4E70099405A /* Preview Content */,
+			);
+			path = NativeVideoManager;
+			sourceTree = "<group>";
+		};
+		26FD70532A79F4E70099405A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26FD70542A79F4E70099405A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26FD70622A79F4E70099405A /* NativeVideoManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				26FD70632A79F4E70099405A /* NativeVideoManagerTests.swift */,
+			);
+			path = NativeVideoManagerTests;
+			sourceTree = "<group>";
+		};
+		26FD706C2A79F4E70099405A /* NativeVideoManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26FD706D2A79F4E70099405A /* NativeVideoManagerUITests.swift */,
+				26FD706F2A79F4E70099405A /* NativeVideoManagerUITestsLaunchTests.swift */,
+			);
+			path = NativeVideoManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26FD70492A79F4E60099405A /* NativeVideoManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FD70732A79F4E70099405A /* Build configuration list for PBXNativeTarget "NativeVideoManager" */;
+			buildPhases = (
+				26FD70462A79F4E60099405A /* Sources */,
+				26FD70472A79F4E60099405A /* Frameworks */,
+				26FD70482A79F4E60099405A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeVideoManager;
+			productName = NativeVideoManager;
+			productReference = 26FD704A2A79F4E60099405A /* NativeVideoManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26FD705E2A79F4E70099405A /* NativeVideoManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FD70762A79F4E70099405A /* Build configuration list for PBXNativeTarget "NativeVideoManagerTests" */;
+			buildPhases = (
+				26FD705B2A79F4E70099405A /* Sources */,
+				26FD705C2A79F4E70099405A /* Frameworks */,
+				26FD705D2A79F4E70099405A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26FD70612A79F4E70099405A /* PBXTargetDependency */,
+			);
+			name = NativeVideoManagerTests;
+			productName = NativeVideoManagerTests;
+			productReference = 26FD705F2A79F4E70099405A /* NativeVideoManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26FD70682A79F4E70099405A /* NativeVideoManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FD70792A79F4E70099405A /* Build configuration list for PBXNativeTarget "NativeVideoManagerUITests" */;
+			buildPhases = (
+				26FD70652A79F4E70099405A /* Sources */,
+				26FD70662A79F4E70099405A /* Frameworks */,
+				26FD70672A79F4E70099405A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26FD706B2A79F4E70099405A /* PBXTargetDependency */,
+			);
+			name = NativeVideoManagerUITests;
+			productName = NativeVideoManagerUITests;
+			productReference = 26FD70692A79F4E70099405A /* NativeVideoManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26FD70422A79F4E60099405A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					26FD70492A79F4E60099405A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					26FD705E2A79F4E70099405A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 26FD70492A79F4E60099405A;
+					};
+					26FD70682A79F4E70099405A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 26FD70492A79F4E60099405A;
+					};
+				};
+			};
+			buildConfigurationList = 26FD70452A79F4E60099405A /* Build configuration list for PBXProject "NativeVideoManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26FD70412A79F4E60099405A;
+			productRefGroup = 26FD704B2A79F4E60099405A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26FD70492A79F4E60099405A /* NativeVideoManager */,
+				26FD705E2A79F4E70099405A /* NativeVideoManagerTests */,
+				26FD70682A79F4E70099405A /* NativeVideoManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26FD70482A79F4E60099405A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FD70552A79F4E70099405A /* Preview Assets.xcassets in Resources */,
+				26FD70522A79F4E70099405A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FD705D2A79F4E70099405A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FD70672A79F4E70099405A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26FD70462A79F4E60099405A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FD705A2A79F4E70099405A /* NativeVideoManager.xcdatamodeld in Sources */,
+				26FD70572A79F4E70099405A /* Persistence.swift in Sources */,
+				26FD70502A79F4E60099405A /* ContentView.swift in Sources */,
+				26FD704E2A79F4E60099405A /* NativeVideoManagerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FD705B2A79F4E70099405A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FD70642A79F4E70099405A /* NativeVideoManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FD70652A79F4E70099405A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FD706E2A79F4E70099405A /* NativeVideoManagerUITests.swift in Sources */,
+				26FD70702A79F4E70099405A /* NativeVideoManagerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26FD70612A79F4E70099405A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26FD70492A79F4E60099405A /* NativeVideoManager */;
+			targetProxy = 26FD70602A79F4E70099405A /* PBXContainerItemProxy */;
+		};
+		26FD706B2A79F4E70099405A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26FD70492A79F4E60099405A /* NativeVideoManager */;
+			targetProxy = 26FD706A2A79F4E70099405A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26FD70712A79F4E70099405A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26FD70722A79F4E70099405A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26FD70742A79F4E70099405A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NativeVideoManager/Preview Content\"";
+				DEVELOPMENT_TEAM = Z4DA9ZK96A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashem.NativeVideoManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26FD70752A79F4E70099405A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NativeVideoManager/Preview Content\"";
+				DEVELOPMENT_TEAM = Z4DA9ZK96A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashem.NativeVideoManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26FD70772A79F4E70099405A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4DA9ZK96A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashem.NativeVideoManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeVideoManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NativeVideoManager";
+			};
+			name = Debug;
+		};
+		26FD70782A79F4E70099405A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4DA9ZK96A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashem.NativeVideoManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeVideoManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NativeVideoManager";
+			};
+			name = Release;
+		};
+		26FD707A2A79F4E70099405A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4DA9ZK96A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashem.NativeVideoManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NativeVideoManager;
+			};
+			name = Debug;
+		};
+		26FD707B2A79F4E70099405A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4DA9ZK96A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashem.NativeVideoManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NativeVideoManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FD70452A79F4E60099405A /* Build configuration list for PBXProject "NativeVideoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FD70712A79F4E70099405A /* Debug */,
+				26FD70722A79F4E70099405A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FD70732A79F4E70099405A /* Build configuration list for PBXNativeTarget "NativeVideoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FD70742A79F4E70099405A /* Debug */,
+				26FD70752A79F4E70099405A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FD70762A79F4E70099405A /* Build configuration list for PBXNativeTarget "NativeVideoManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FD70772A79F4E70099405A /* Debug */,
+				26FD70782A79F4E70099405A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FD70792A79F4E70099405A /* Build configuration list for PBXNativeTarget "NativeVideoManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FD707A2A79F4E70099405A /* Debug */,
+				26FD707B2A79F4E70099405A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26FD70582A79F4E70099405A /* NativeVideoManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26FD70592A79F4E70099405A /* NativeVideoManager.xcdatamodel */,
+			);
+			currentVersion = 26FD70592A79F4E70099405A /* NativeVideoManager.xcdatamodel */;
+			path = NativeVideoManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26FD70422A79F4E60099405A /* Project object */;
+}
